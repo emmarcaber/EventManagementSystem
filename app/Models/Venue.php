@@ -7,8 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Venue extends Model
 {
-    protected $table = 'venues';
-    protected $primaryKey = 'VenueID';
-    protected $fillable = ['VenueName', 'Address', 'Capacity', 'Availability'];
     use HasFactory;
 }
